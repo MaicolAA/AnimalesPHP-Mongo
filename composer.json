@@ -1,0 +1,17 @@
+{
+    "name": "maicol/animales",
+    "autoload": {
+        "psr-4": {
+            "Maicol\\Animales\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MaicolAA",
+            "email": "maicolaroyave10@gmail.com"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.12"
+    }
+}
