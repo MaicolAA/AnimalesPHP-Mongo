@@ -21,7 +21,7 @@
             </div>
             <div class="form-group">
                 <label for="fechanacimiento">Edad:</label>
-                <input type="text" class="form-control" id="edad" name="edad" required>
+                <input type="number" class="form-control" id="edad" name="edad" min="1" required>
             </div>
             <div class="form-group">
                 <label for="tipo">Tipo de Animal:</label>

@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['id'])) {
             </div>
             <div class="form-group">
                 <label for="edad">Edad:</label>
-                <input type="text" class="form-control" id="edad" name="edad" value="<?= htmlspecialchars($animal->edad) ?>" required>
+                <input type="number" class="form-control" id="edad" min="1" name="edad" value="<?= htmlspecialchars($animal->edad) ?>" required>
             </div>
             <div class="form-group">
                 <label for="tipo">Tipo de Animal:</label>
