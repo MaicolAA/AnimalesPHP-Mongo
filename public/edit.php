@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['id'])) {
 }
 ?>
 
-<!DOCTYPE html>
+<!DOCTYPE html>     
 <html>
 <head>
     <title>Editar Animal</title>

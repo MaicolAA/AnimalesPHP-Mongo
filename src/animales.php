@@ -24,7 +24,7 @@ class Animal {
 
     public function eliminarAnimal()
     {
-        $client = new Client("mongodb+srv://maicolaroyave10:Maicol2701@cluster0.odqgsrl.mongodb.net/"); // Ajusta la URL de conexión según tu configuración
+        $client = new Client("mongodb+srv://maicolaroyave10:Maicol2701@cluster0.odqgsrl.mongodb.net/"); 
         $collection = $client->selectDatabase('animales')->animales; 
 
         $result = $collection->deleteOne(['_id' => new MongoDB\BSON\ObjectID($this->idanimal)]);
@@ -98,6 +98,8 @@ class Animals
 
         return $result->getModifiedCount() > 0;
     }
+
+    
 
     public function getAnimalById($idanimal)
     {
